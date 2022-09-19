@@ -1,0 +1,62 @@
+
+  .review{
+    background: white;
+    width: 45%;
+    height: 380px;
+
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+  }
+  .person-img {
+    width: 25%;
+    display: block;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    margin: auto;
+  }
+  .author{
+   margin-top: 10px;
+   margin-bottom: 0;
+  }
+  .job{
+    margin: 0;
+    color: hsl(205, 78%, 60%)
+  }
+  .info{
+    margin: 1rem 5%;
+    color: gray;
+  }
+  .button-container{
+    margin-top: 10px;
+    padding-top: 0;
+  }
+  .prev-btn,.next-btn{
+    color: hsl(205, 78%, 60%);
+    background-color: white;
+    border: none;
+    font-size: 35px;
+  }
+
+  .random-btn{
+    color: hsl(205, 78%, 60%);
+    background-color: white;
+    border: none;
+    font-size: 20px;
+  }
+  .prev-btn:hover,.next-btn:hover{
+    color: hsl(205, 78%, 60%);
+    background-color: white;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  .random-btn:hover{
+    background: hsl(205, 78%, 60%);
+    color:hsl(205, 86%, 17%);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
