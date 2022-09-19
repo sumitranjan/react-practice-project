@@ -1,0 +1,28 @@
+.container{
+  width: 45%;
+  min-height: 20vh;
+  margin: auto;
+  margin-top:5%;
+
+}
+.container2{
+  width: 50%;
+  min-height: 20vh;
+  margin: auto;
+  text-align: center;
+  margin-top:5%;
+
+}
+
+.refreshBtn{
+  display: block;
+  width: 20%;
+  height: 30px;
+  border: none;
+  background-color:rgb(82, 180, 219);
+  margin: 1rem auto 0 auto;
+  color:  white;
+  font-size: 20px;
+ border-radius: 5px;
+  cursor: grabbing
+}
