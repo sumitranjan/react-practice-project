@@ -3,9 +3,7 @@ import "./Question.css";
 
 const Question = ({ title, info }) => {
     const [showInfo, setShowInfo] = useState(false);
-    function handleText(){
 
-    }
   return (
     <div className="card">
       <div className="questionBox">
