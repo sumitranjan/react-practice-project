@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  display: flex;
+  width: 65%;
+  min-height: 500px;
+  background-color: white;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.left{
+  width:35%;
+  height: 100%;
+
+}
+.left-text{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(58, 52, 52);
+  margin-top: 15%;
+}
+.right{
+  width:65%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .App {
+    display: block;
+  }
+  .left,.right{
+    text-align: center;
+    margin: auto;
+  }
+}
