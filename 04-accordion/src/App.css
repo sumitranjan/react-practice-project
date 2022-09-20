@@ -39,7 +39,8 @@
 
 .App{
   display: flex;
-  width: 65%;
+  /* width: 65%; */
+  width: 1000px;
   min-height: 500px;
   background-color: white;
   margin: auto;
@@ -49,7 +50,7 @@
 .left{
   width:35%;
   height: 100%;
-
+  margin-left: 10px ;
 }
 .left-text{
   font-size: 30px;
@@ -66,9 +67,12 @@
 @media screen and (max-width: 768px) {
   .App {
     display: block;
+    width: 65%;
   }
   .left,.right{
     text-align: center;
     margin: auto;
+    width: 100%;
+    border: 1px solid red;
   }
 }
