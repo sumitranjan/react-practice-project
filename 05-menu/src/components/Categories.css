@@ -1,0 +1,18 @@
+.btn-container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.filter-btn{
+    border: none;
+    color: rgb(219, 157, 40);
+    font-size: 20px;
+    cursor:grab;
+    margin-left: 15px;
+}
+.filter-btn:hover{
+    border: none;
+    background-color: rgb(236, 164, 29);
+    color: white;
+    font-size: 20px;
+    cursor:grab;
+}
