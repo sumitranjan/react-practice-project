@@ -25,18 +25,21 @@ function App() {
   };
   return (
     <div className="App">
-      <h3>Tired of boring lorem ipsum?</h3>
+      <h3 class="heading">Tired of boring lorem ipsum?</h3>
       <form className="lorem-form" onSubmit={handleSubmit}>
-        <label htmlFor="amount">Paragraphs :</label>
+        <label htmlFor="amount" className="label-text">
+          Paragraphs :
+        </label>
         <input
           type="number"
           name="amount"
           id="amount"
+          className="amount"
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
         <button type="submit" className="btn">
-          generate
+          Generate
         </button>
       </form>
       <div className="lorem-text">
